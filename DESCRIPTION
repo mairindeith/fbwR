@@ -25,8 +25,14 @@ Description: The Fish Benefits Workbook (FBW) is a simulation model that uses a
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Imports: dplyr, lubridate, readxl, rlang, stats, tidyr 
-Depends: R (>= 2.10)
+Imports: 
+  dplyr (>= 1.1.2),
+  lubridate (>= 1.9.2),
+  readxl (>= 1.4.3),
+  rlang,
+  stats,
+  tidyr 
+Depends: R (>= 4.3)
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no

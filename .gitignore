@@ -1,5 +1,6 @@
 inst/doc
 *.code-workspace
 *.tar.gz
-
+.Rhistory
+.RData
 .Rproj.user
