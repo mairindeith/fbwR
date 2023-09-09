@@ -44,10 +44,11 @@ sims  <- c(0:4)
 nsim       <- length(sims)
 
 for(i in 1:length(sims)){
-  data.1$fish_in_dam       <- fbw_df$fish_in_dam*2
-  data.1$survival_rate     <- fbw_df$fish_in_dam*0.5
-}
+  data.1$fish_in_dam       <- fbw_df$fish_in_dam[i]*2 # just adding some variation to next data frames
+  data.1$survival_rate     <- fbw_df$fish_in_dam[i]*0.5 # just adding some variation to next data frames
+  return_list           <- list(data.1[i]) 
+  }
 
-writeData(paste('fbw_df','s',i,'.csv',sep=''), data.1, append=F)}
-return_list <- list((fbw_df, nsim))
+writeData(paste('fbw_df','s',i,'.csv',sep=''), data.1, append=F)} #this line could be helpful 
+return_list <- list((fbw_df, nsim)) # something like this is what we want to achieve but no repeating the same data frame
 
