@@ -14,23 +14,17 @@ x <- list(ressim)
 example_list <- rep(list(x), 10)
 example_list
 
-example_list[[2]][[1]]$y * rnorm(n=1)
+# Repeating a data frame inside a list
+example_list <- rep(list(ressim), 10)
 
 
-for (i in 1:length(example_list))
-  for (j in 1:length(example_list))
-   temp <-  function(X) {
-      X$y * rnorm(n=1)
-     temp     
-     }
-             
-temp
-
-
-# Try it out, to add uncertainty
+# Applying a function to each element of the list 
 lapply(example_list, function(X) {
-  X <- example_list[[]][[]],
-  X$y * rnorm(n=1)})
+  X$y + 2})
+
+
+
+
 
 
 
