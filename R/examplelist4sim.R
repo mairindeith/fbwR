@@ -1,4 +1,4 @@
-# Usin Example script for working with text information to create a list for siimulations
+# Using Example script for working with text information to create a list for simulations
 # Created by Alejandro Yanez on Sept 7 2023
 
 ### Step 1: Apply all steps developed by Mairin to add text information and use that data frame

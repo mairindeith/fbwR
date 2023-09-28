@@ -3,3 +3,5 @@ inst/doc
 *.tar.gz
 
 .Rproj.user
+.DS_Store
+.DS_Store?
