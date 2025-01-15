@@ -50,7 +50,7 @@ You can access the vignettes using the following R command after the library has
 # To see the quickstart vignette:
 vignette(package="fbwR", topic = "fbwR-quick-start")
 # To see the data requirements vignette:
-vignette(package="fbwR", topic = "fbwR-quick-start")
+vignette(package="fbwR", topic = "fbwR-data-needs")
 ```
 
 ## fbwR Shiny app
